@@ -107,12 +107,12 @@ minimum_to_include = 20
 
 #get API response for movies
 import requests
-
+from config import MY_BEARER
 url = "https://api.themoviedb.org/3/movie/popular?language=en-US"
 
 headers = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNGY3NGViODBkODA3OWI5ODQ5OTEyN2ExOTU3ZWU4ZSIsInN1YiI6IjY1ZDA3ZTU2ZmNiOGNjMDE2MjQ0YjFiNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8_pm3iKxKtm1C-EL0Vc39BUtaq3UwvVcpMc8aeG4osE"
+    "Authorization": "Bearer " + MY_BEARER
 }
 # Create a list to store all results
 all_data = []
