@@ -1,7 +1,7 @@
 import lenskit.datasets as ds
 import pandas as pd
 
-data = ds.MovieLens('lab4/lab4-recommender-systems/')
+data = ds.MovieLens('lab4/')
 
 print("Successfully installed dataset.")
 
@@ -45,13 +45,13 @@ import csv
 jabril_rating_dict = {}
 jgb_rating_dict = {}
 
-with open("lab4/lab4-recommender-systems/jabril-movie-ratings.csv", newline='') as csvfile:
+with open("lab4/jabril-movie-ratings.csv", newline='') as csvfile:
   ratings_reader = csv.DictReader(csvfile)
   for row in ratings_reader:
     if ((row['ratings'] != "") and (float(row['ratings']) > 0) and (float(row['ratings']) < 6)):
       jabril_rating_dict.update({int(row['item']): float(row['ratings'])})
       
-with open("lab4/lab4-recommender-systems/jgb-movie-ratings.csv", newline='') as csvfile:
+with open("lab4/jgb-movie-ratings.csv", newline='') as csvfile:
   ratings_reader = csv.DictReader(csvfile)
   for row in ratings_reader:
     if ((row['ratings'] != "") and (float(row['ratings']) > 0) and (float(row['ratings']) < 6)):
