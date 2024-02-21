@@ -4,7 +4,7 @@ This project is a simple movie rating system. It uses a CSV file as a database t
 
 ## Dataset
 
-The dataset used in this project is `jabril-movie-ratings.csv`, which contains the following columns:
+The dataset used in this project is `new_file.csv`, which contains the following columns:
 
 - `item`: The ID of the movie.
 - `title`: The title of the movie.
@@ -18,7 +18,7 @@ item,title,genres,ratings
 356,Forrest Gump (1994),Comedy|Drama|Romance|War,4
 318,"Shawshank Redemption, The (1994)",Crime|Drama,4.5
 296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,4
-
+```
 ## Usage
 To use this project, run the main.py script. The script will randomly select a movie from the CSV file and ask you to rate it. Enter a rating between 0.0 and 5.0, or enter 'done' to finish. Your ratings will be saved back to the CSV file.
 
@@ -30,4 +30,4 @@ Future improvements to this project could include:
 - Implementing a recommendation system based on the user's ratings.
 - Allowing the user to add new movies to the database.
 - Adding error handling for invalid inputs.
-```
+
