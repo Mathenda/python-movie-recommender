@@ -11,7 +11,8 @@ The dataset used in this project is `new_file.csv`, which contains the following
 - `genres`: The genres of the movie, separated by '|'.
 - `ratings`: The user's rating of the movie.
 
-dataset provided by ["CrashCourse"](https://www.youtube.com/watch?v=iaIW3CO4rcY&t=3s)
+dataset provided by [CrashCourse](https://www.youtube.com/watch?v=iaIW3CO4rcY&t=3s)
+
 Here's an example of the data:
 
 ```csv
