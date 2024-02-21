@@ -1,6 +1,6 @@
 # Movie Rating System
 
-This project is a simple movie rating system. It uses a CSV file as a database to store movie information and user ratings.
+This project is a simple movie rating system. It uses user-user collaborative filtering to generate predictions and uses a CSV file as a database to store movie information and user ratings.
 
 ## Dataset
 
